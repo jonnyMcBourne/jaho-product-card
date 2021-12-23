@@ -1,10 +1,10 @@
-import {Product} from '../interfaces/productInterfaces';
+import {Product} from '../../src/interfaces/productInterfaces';
 
 export const products: Product[] = [
     {
       id: 1,
       name: "Coffe mug",
-      img: "./coffee-mug.png",
+      img:'https://th.bing.com/th/id/OIP.UPn4LXlCa5zuvmtt_rhlUgHaHa?pid=ImgDet&rs=1'
     },
     {
       id: 2,

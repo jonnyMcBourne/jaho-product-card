@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCard must increase in 1 the counter 1`] = `
+<div
+  className="productCard undefined"
+>
+  <h1>
+     
+    0
+     
+  </h1>
+  <button
+    onClick={[Function]}
+  >
+    +1
+  </button>
+</div>
+`;
+
+exports[`ProductCard must show the component correctly 1`] = `
+<div
+  className="productCard undefined"
+>
+  <div
+    className="buttonsContainer undefined"
+  >
+    <button
+      className="buttonMinus"
+      onClick={[Function]}
+    >
+      -
+    </button>
+    <div
+      className="countLabel"
+    >
+      0
+    </div>
+    <button
+      className="buttonAdd false"
+      disabled={false}
+      onClick={[Function]}
+    >
+      +
+    </button>
+  </div>
+</div>
+`;

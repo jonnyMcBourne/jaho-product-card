@@ -5,7 +5,7 @@ import {Props as IProdButtons} from '../components/ProductButtons'
 
 export interface Product{
     name:string;
-    img:string;
+    img?:string;
     id: number;
 }
 
